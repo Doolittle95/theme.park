@@ -182,6 +182,7 @@ body::after {
 }
 
 /* CASE COLOR */
+/*
 #login [class^='case-'],
 #login [class*=' case-'] {
     font-family: cases!important;
@@ -193,6 +194,8 @@ body::after {
     color: var(--case-color);
     text-shadow: var(--text-shadow) var(--text-shadow-color);
 }
+*/
+
 /*INPUT FORMS*/
 #login [type=text],
 #login [type=password] {
