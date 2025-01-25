@@ -336,6 +336,17 @@ logo.angle {
     background: var(--selection-color); /* Gecko Browsers */
   }
 
+const caseElement = document.querySelector('body .case');
+if (caseElement) {
+  caseElement.remove();
+  const data = {
+    caseRemoved: document.querySelector('body .case') === null
+  };
+} else {
+  const data = {
+    caseRemoved: false
+  };
+}
 
 /*
 
