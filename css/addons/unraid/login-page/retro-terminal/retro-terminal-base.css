@@ -127,7 +127,9 @@ body::after {
 #login h1 {
     display: none;
 }
-#login h2,
+#login h2{
+    display: none;
+}
 #login .error {
     color: var(--text-color) !important;
     text-shadow: var(--text-shadow) var(--text-shadow-color);
