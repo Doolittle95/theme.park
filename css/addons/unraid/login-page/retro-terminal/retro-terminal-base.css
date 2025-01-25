@@ -257,6 +257,9 @@ body::after {
     min-width: 300px;
     border-radius: 0px !important;
     border: 3px dashed var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #login .angle::after {
     display:none;
