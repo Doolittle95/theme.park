@@ -238,13 +238,21 @@ body::after {
     background: -webkit-gradient(linear, left top, right top, from(var(--button-color-hover)), to(var(--button-color-hover)));
     background: linear-gradient(90deg, var(--button-color-hover) 0, var(--button-color-hover));
 }
+/*find png cords*/
+#png-image {
+    display: block;
+    margin: 0 auto; /* Center the PNG horizontally */
+}
 
 /*LOGIN Center Panel*/
 #login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: calc(50% + 50px); /* Adjust 50px based on the height of the PNG */
+    transform: translateX(-50%);
+    margin-top: 20px; /* Add space between the PNG and the login form */
 }
+
 /*LOGIN ID*/
 #login {
     background: var(--loginbox-background-color) !important;
