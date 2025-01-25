@@ -116,6 +116,13 @@ body::after {
     min-height: 100%;
     min-width: 100%;
 }
+
+/* CASE COLOR */
+#login [class^='case-'],
+#login [class*=' case-'] {
+    display: none !important;
+}
+
 /*TEXT COLOR*/
 #login {
     position: absolute;
