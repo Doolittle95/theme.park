@@ -9,8 +9,8 @@
 --main-bg-color:black;
 --body-before:#70d7f61a;
 --body-after: #70d7f633;
---body-animation: flicker;
---logo: url(/css/addons/unraid/login-page/alien/logo/wings_shadow.png) center no-repeat;
+--body-animation: none;
+--logo: url(https://i.imgur.com/ILzm9el.png) center no-repeat;
 --text-color: #ffffff;
 --input-color: #ffffff;
 --link-color: #ffffff;
