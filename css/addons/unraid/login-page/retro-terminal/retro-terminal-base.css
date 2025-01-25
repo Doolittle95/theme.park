@@ -239,6 +239,12 @@ body::after {
     background: linear-gradient(90deg, var(--button-color-hover) 0, var(--button-color-hover));
 }
 
+/*LOGIN Center Panel*/
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*LOGIN ID*/
 #login {
     background: var(--loginbox-background-color) !important;
