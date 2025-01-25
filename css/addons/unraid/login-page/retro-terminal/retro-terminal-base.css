@@ -117,6 +117,13 @@ body::after {
     min-width: 100%;
 }
 /*TEXT COLOR*/
+#login {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px; /* Adjust as needed */
+}
+
 #login h1 {
     display: none;
 }
