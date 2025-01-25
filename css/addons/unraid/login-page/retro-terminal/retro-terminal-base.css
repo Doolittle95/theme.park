@@ -180,10 +180,6 @@ body::after {
     -webkit-font-smoothing: none;
     line-height: 1.2;
 }
-h1 {
-    font-size: 3em;
-    margin: 0;
-}
 
 /* CASE COLOR */
 #login [class^='case-'],
