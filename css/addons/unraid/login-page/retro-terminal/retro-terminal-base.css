@@ -195,13 +195,6 @@ body::after {
     line-height: 1.2;
 }
 
-/* CASE COLOR */
-#login [class^='case-'],
-#login [class*=' case-'] {
-    display: none !important;
-}
-
-
 /*INPUT FORMS*/
 #login [type=text],
 #login [type=password] {
