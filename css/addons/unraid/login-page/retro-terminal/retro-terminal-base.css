@@ -197,7 +197,7 @@ body::after {
     color: var(--case-color);
     text-shadow: var(--text-shadow) var(--text-shadow-color);
 }
-*/
+
 
 /*INPUT FORMS*/
 #login [type=text],
@@ -209,6 +209,7 @@ body::after {
     border-radius: 0px;
     border: 3px solid var(--text-color);
     color: var(--text-color);
+    display: none !important;
 }
 #login [type=text]:active,
 #login [type=text]:focus,
