@@ -184,7 +184,10 @@ body::after {
 /*TEXT FONT*/
 #login h2,
 #login a,
-#login .button,
+#login .button{
+  display: block;
+  margin: 0 auto;
+}
 #login .error {
     font-family: var(--text-font);
     -webkit-font-smoothing: none;
