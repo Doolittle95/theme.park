@@ -117,6 +117,9 @@ body::after {
     min-width: 100%;
 }
 /*TEXT COLOR*/
+#login h1 {
+    display: none;
+}
 #login h2,
 #login .error {
     color: var(--text-color) !important;
