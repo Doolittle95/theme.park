@@ -194,7 +194,7 @@ body::after {
 #login a,
 #login .button{
   display: block;
-  margin: 0 auto;
+  margin-left: 0;
 }
 #login .error {
     font-family: var(--text-font);
