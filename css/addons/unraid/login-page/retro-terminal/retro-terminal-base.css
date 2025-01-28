@@ -120,7 +120,7 @@ body::after {
 /* CASE COLOR */
 #login [class^='case-'],
 #login [class*=' case-'] {
-    display: none !important;
+    display: block !important;
 }
 
 /*TEXT COLOR*/
